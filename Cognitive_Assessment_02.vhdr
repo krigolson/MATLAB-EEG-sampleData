@@ -1,0 +1,248 @@
+Brain Vision Data Exchange Header File Version 1.0
+; Data created by the Vision Recorder
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=Cognitive_Assessment_02.eeg
+MarkerFile=Cognitive_Assessment_02.vmrk
+DataFormat=BINARY
+; Data orientation: MULTIPLEXED=ch1,pt1, ch2,pt1 ...
+DataOrientation=MULTIPLEXED
+NumberOfChannels=63
+; Sampling interval in microseconds
+SamplingInterval=2000
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+; Each entry: Ch<Channel number>=<Name>,<Reference channel name>,
+; <Resolution in "Unit">,<Unit>, Future extensions..
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in channel names are coded as "\1".
+Ch1=AF3,,0.0488281,µV
+Ch2=AF4,,0.0488281,µV
+Ch3=AF7,,0.0488281,µV
+Ch4=AF8,,0.0488281,µV
+Ch5=C1,,0.0488281,µV
+Ch6=C2,,0.0488281,µV
+Ch7=C3,,0.0488281,µV
+Ch8=C4,,0.0488281,µV
+Ch9=C5,,0.0488281,µV
+Ch10=C6,,0.0488281,µV
+Ch11=Cz,,0.0488281,µV
+Ch12=CP1,,0.0488281,µV
+Ch13=CP2,,0.0488281,µV
+Ch14=CP3,,0.0488281,µV
+Ch15=CP4,,0.0488281,µV
+Ch16=CP5,,0.0488281,µV
+Ch17=CP6,,0.0488281,µV
+Ch18=CPz,,0.0488281,µV
+Ch19=F1,,0.0488281,µV
+Ch20=F2,,0.0488281,µV
+Ch21=F3,,0.0488281,µV
+Ch22=F4,,0.0488281,µV
+Ch23=F5,,0.0488281,µV
+Ch24=F6,,0.0488281,µV
+Ch25=F7,,0.0488281,µV
+Ch26=F8,,0.0488281,µV
+Ch27=Fz,,0.0488281,µV
+Ch28=FC1,,0.0488281,µV
+Ch29=FC2,,0.0488281,µV
+Ch30=FC3,,0.0488281,µV
+Ch31=FC4,,0.0488281,µV
+Ch32=FC5,,0.0488281,µV
+Ch33=FC6,,0.0488281,µV
+Ch34=FCz,,0.0488281,µV
+Ch35=Fp1,,0.0488281,µV
+Ch36=Fp2,,0.0488281,µV
+Ch37=FT10,,0.0488281,µV
+Ch38=FT7,,0.0488281,µV
+Ch39=FT8,,0.0488281,µV
+Ch40=FT9,,0.0488281,µV
+Ch41=O1,,0.0488281,µV
+Ch42=O2,,0.0488281,µV
+Ch43=Oz,,0.0488281,µV
+Ch44=P1,,0.0488281,µV
+Ch45=P2,,0.0488281,µV
+Ch46=P3,,0.0488281,µV
+Ch47=P4,,0.0488281,µV
+Ch48=P5,,0.0488281,µV
+Ch49=P6,,0.0488281,µV
+Ch50=P7,,0.0488281,µV
+Ch51=P8,,0.0488281,µV
+Ch52=Pz,,0.0488281,µV
+Ch53=PO3,,0.0488281,µV
+Ch54=PO4,,0.0488281,µV
+Ch55=PO7,,0.0488281,µV
+Ch56=PO8,,0.0488281,µV
+Ch57=POz,,0.0488281,µV
+Ch58=T7,,0.0488281,µV
+Ch59=T8,,0.0488281,µV
+Ch60=TP10,,0.0488281,µV
+Ch61=TP7,,0.0488281,µV
+Ch62=TP8,,0.0488281,µV
+Ch63=TP9,,0.0488281,µV
+
+[Comment]
+
+BrainVision Recorder Professional   -   V. 1.20.0802
+
+
+A m p l i f i e r  S e t u p
+============================
+Number of channels: 63
+Sampling Rate [Hz]: 500
+Sampling Interval [µS]: 2000
+
+Channels
+--------
+#     Name      Phys. Chn.    Resolution / Unit   Low Cutoff [s]   High Cutoff [Hz]   Notch [Hz]    Gradient         Offset
+1     AF3         34         0.0488281 µV             DC              140              Off
+2     AF4         63         0.0488281 µV             DC              140              Off
+3     AF7         33         0.0488281 µV             DC              140              Off
+4     AF8         64         0.0488281 µV             DC              140              Off
+5     C1          41         0.0488281 µV             DC              140              Off
+6     C2          58         0.0488281 µV             DC              140              Off
+7     C3          8          0.0488281 µV             DC              140              Off
+8     C4          25         0.0488281 µV             DC              140              Off
+9     C5          42         0.0488281 µV             DC              140              Off
+10    C6          57         0.0488281 µV             DC              140              Off
+11    Cz          24         0.0488281 µV             DC              140              Off
+12    CP1         12         0.0488281 µV             DC              140              Off
+13    CP2         23         0.0488281 µV             DC              140              Off
+14    CP3         44         0.0488281 µV             DC              140              Off
+15    CP4         55         0.0488281 µV             DC              140              Off
+16    CP5         11         0.0488281 µV             DC              140              Off
+17    CP6         22         0.0488281 µV             DC              140              Off
+18    CPz         54         0.0488281 µV             DC              140              Off
+19    F1          36         0.0488281 µV             DC              140              Off
+20    F2          62         0.0488281 µV             DC              140              Off
+21    F3          3          0.0488281 µV             DC              140              Off
+22    F4          30         0.0488281 µV             DC              140              Off
+23    F5          37         0.0488281 µV             DC              140              Off
+24    F6          61         0.0488281 µV             DC              140              Off
+25    F7          4          0.0488281 µV             DC              140              Off
+26    F8          31         0.0488281 µV             DC              140              Off
+27    Fz          2          0.0488281 µV             DC              140              Off
+28    FC1         7          0.0488281 µV             DC              140              Off
+29    FC2         29         0.0488281 µV             DC              140              Off
+30    FC3         39         0.0488281 µV             DC              140              Off
+31    FC4         59         0.0488281 µV             DC              140              Off
+32    FC5         6          0.0488281 µV             DC              140              Off
+33    FC6         28         0.0488281 µV             DC              140              Off
+34    FCz         40         0.0488281 µV             DC              140              Off
+35    Fp1         1          0.0488281 µV             DC              140              Off
+36    Fp2         32         0.0488281 µV             DC              140              Off
+37    FT10        27         0.0488281 µV             DC              140              Off
+38    FT7         38         0.0488281 µV             DC              140              Off
+39    FT8         60         0.0488281 µV             DC              140              Off
+40    FT9         5          0.0488281 µV             DC              140              Off
+41    O1          16         0.0488281 µV             DC              140              Off
+42    O2          18         0.0488281 µV             DC              140              Off
+43    Oz          17         0.0488281 µV             DC              140              Off
+44    P1          45         0.0488281 µV             DC              140              Off
+45    P2          53         0.0488281 µV             DC              140              Off
+46    P3          14         0.0488281 µV             DC              140              Off
+47    P4          19         0.0488281 µV             DC              140              Off
+48    P5          46         0.0488281 µV             DC              140              Off
+49    P6          52         0.0488281 µV             DC              140              Off
+50    P7          15         0.0488281 µV             DC              140              Off
+51    P8          20         0.0488281 µV             DC              140              Off
+52    Pz          13         0.0488281 µV             DC              140              Off
+53    PO3         48         0.0488281 µV             DC              140              Off
+54    PO4         50         0.0488281 µV             DC              140              Off
+55    PO7         47         0.0488281 µV             DC              140              Off
+56    PO8         51         0.0488281 µV             DC              140              Off
+57    POz         49         0.0488281 µV             DC              140              Off
+58    T7          9          0.0488281 µV             DC              140              Off
+59    T8          26         0.0488281 µV             DC              140              Off
+60    TP10        21         0.0488281 µV             DC              140              Off
+61    TP7         43         0.0488281 µV             DC              140              Off
+62    TP8         56         0.0488281 µV             DC              140              Off
+63    TP9         10         0.0488281 µV             DC              140              Off
+
+Reference Channel Name = AFz
+Reference Phys. Chn.   = 35
+Good Level [kOhms]     = 20
+Bad Level [kOhms]      = 60
+MY-Button Workspace    = C:\Vision\Workfiles\MYButton
+
+Amplifier 
+actiCHamp (5001) SN: 13060176 
+Module 1  (5010) SN: 13060377 
+Module 2  (5010) SN: 13060370 
+Version: DLL_25.14.08.04, DRV_03.04.01.146, CTRL_04.11.04.28, FPGA_44.00.00.00, DSP_06.11.05.25 
+
+
+S o f t w a r e  F i l t e r s
+==============================
+Disabled
+
+
+Data/Gnd Electrodes Selected Impedance Measurement Range: 0 - 40 kOhm
+Impedance [kOhm] at 15:15:07 :
+AF3:         14
+AF4:          6
+AF7:         12
+AF8:         11
+AFz:          8
+C1:           2
+C2:           2
+C3:          14
+C4:           1
+C5:           0
+C6:          10
+Cz:          12
+CP1:         10
+CP2:         11
+CP3:         11
+CP4:         14
+CP5:          3
+CP6:          4
+CPz:          6
+F1:           3
+F2:           0
+F3:          11
+F4:          11
+F5:          15
+F6:          10
+F7:           7
+F8:          17
+Fz:           6
+FC1:          2
+FC2:          2
+FC3:          8
+FC4:          4
+FC5:         19
+FC6:         13
+FCz:         11
+Fp1:         18
+Fp2:         12
+FT10:         2
+FT7:          1
+FT8:          3
+FT9:          8
+O1:          14
+O2:           0
+Oz:           4
+P1:          20
+P2:           2
+P3:           3
+P4:           4
+P5:          14
+P6:           2
+P7:           2
+P8:           8
+Pz:          11
+PO3:          8
+PO4:          2
+PO7:          3
+PO8:          6
+POz:         15
+T7:           1
+T8:          11
+TP10:         1
+TP7:          8
+TP8:          1
+Gnd:         12
